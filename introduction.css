@@ -1,0 +1,70 @@
+body{
+  width:100%;
+  margin: 0em;
+  background-color: black;
+} 
+.pattern{
+  margin-left:200px;
+  position: absolute;
+ 
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.title{
+  position: absolute;
+  top:330px;
+  left:600px;
+  text-align:center;
+  color:blue;
+  opacity:0.6;
+  font-weight:bold;
+  font-family: 'Londrina Shadow', cursive;
+  font-size:200px;
+  z-index:3;
+  display:inline-block;
+}
+.ex-one{
+  color:white;
+  position:absolute;
+  z-index:2;
+  top:200px;
+  left:100px;
+  font-weight:bold;
+  font-size:30px;
+}
+span{
+  color:blue;
+}
+.ex-two{
+  color:white;
+  position:absolute;
+  z-index:2;
+  top:70px;
+  left:900px;
+  font-weight:bold;
+  font-size:30px;
+}
+.ex-three{
+  color:white;
+  position:absolute;
+  z-index:2;
+  top:360px;
+  left:1100px;
+  font-weight:bold;
+  font-size:30px;
+}
+.info{
+  color:white;
+  
+  position:absolute;
+  z-index:2;
+  top:800px;
+  left:600px;
+  font-weight:bold;
+  font-size:20px;
+  margin-bottom:50px;
+}
+
+ 
+ 

@@ -1,0 +1,269 @@
+body{
+  width:100%;
+  margin: 0em;
+}
+.company{
+  margin-left:50px;
+}
+.company img{
+  float:left;
+  
+ margin-top:10px;
+  }
+.company p{
+  float:left;
+  font-size:25px;
+  color:blue;
+font-weight:bold;
+font-family: 'Londrina Shadow', cursive;
+margin-top:35px;
+}
+.menu{
+  width:100%;
+  height:80px;
+  position: fixed;
+  z-index: 10;
+  background-color:rgba(255,255,255,0.9);
+  border-bottom:1px solid gray;
+  top:0;
+}
+.menu-left{
+  float:left;
+  margin-left:58px;
+ 
+  
+
+}
+.left{
+  float:left;
+  margin-right:30px;
+  margin-left:60px;
+  
+}
+.menu-right{
+  float: right;
+  padding-right:58px;
+  margin-top:20px;
+  
+}
+
+.line{
+  display:inline-block;
+margin-top:5px;
+}
+span{
+  
+  color:blue;
+  display:inline-block;
+  margin-right:25px;
+ 
+
+  
+}
+span:hover{
+  opacity:0.7;
+  transition-duration: 0.3s;
+}
+.menu-name{
+  font-size:14px;
+  line-height: 90px;
+ 
+  color:black;
+  text-decoration: none;
+  display:inline-block;
+  font-weight:bold;
+}
+.menu-name:hover{
+color:#a48c61;
+transition-duration: 0.3s;
+}
+nobr{
+  color:gray;
+}
+
+.main-one{
+  padding-top:80px;
+ height:650px;
+ 
+}
+.main-one-title{
+  font-size:24px;
+  color:#a48c61;
+  font-weight:bold;
+}
+.main-one-image{
+  position: absolute;
+  top:200px;
+  left:600px;
+  display: inline-block;
+ 
+}
+.main-one-area{
+  position: absolute;
+  top:120px;
+  left:300px;
+ 
+}
+.main-one h1{
+font-size:70px;
+}
+.main-one p{
+font-weight:bold;
+font-size:25px;
+}
+.main-one-btn{
+  background-color:black;
+  color:white;
+  padding:12px;
+  font-size:30px;
+  display:inline-block;
+  margin-top:12px;
+  margin-left:30px;
+  border-radius:5px;
+  text-decoration:none;
+}
+.main-one-btn:hover{
+  background-color:#a48c61;
+  transition-duration: 0.5s;
+
+}
+.main-two{
+  height:650px;
+  padding-top:50px;
+  
+}
+.main-two-image{
+  position: absolute;
+  top:900px;
+  left:600px;
+  display: inline-block;
+}
+.main-two-area{
+  position: absolute;
+  top:900px;
+  left:300px;
+}
+.main-two h2{
+  font-size:50px;
+}
+.main-two p{
+  font-weight:bold;
+  font-size:25px;
+}
+
+.main-three-title h2{
+  font-size:50px;
+  text-align:center;
+  margin-top:130px;
+}
+.main-three-title p{
+  font-size:20px;
+  text-align:center;
+  
+}
+.main-three-image:hover{
+background-color:rgba(0, 0, 0, 0.5)
+}
+.specialitys{
+  padding-left:50px;
+  display:inline-block;
+  
+  margin-bottom:40px;
+}
+.speciality{
+ overflow: hidden;
+  width:25%;
+  float:left;
+}
+.speciality img{
+  transition-duration: 0.5s;
+}
+.speciality img:hover{
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  opacity: 0.6;
+ 
+  
+}
+
+.main-four-title h2{
+  font-size:50px;
+  text-align:center;
+  
+}
+.main-four-title p{
+  font-size:20px;
+  text-align:center;
+ 
+}
+.works{
+  padding-left:50px;
+}
+.work{
+  width:25%;
+  float:left;
+  overflow: hidden;
+ 
+}
+
+.work img{
+  transition-duration: 0.5s;
+  display: block;
+}
+.work img:hover{
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  opacity: 0.6;
+ 
+  
+}
+.main-five-title h2{
+  font-size:50px;
+  display:inline-block;
+  text-align:center;
+  margin-top:80px;
+  margin-left:630px;
+}
+
+.services{
+  padding-left:50px;
+}
+.service{
+  width:25%;
+  float:left;
+  
+  overflow: hidden;
+}
+.service img{
+  transition-duration: 0.5s;
+}
+.service img:hover{
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  opacity: 0.6;
+ 
+}
+.clear{
+  clear:left;
+}
+.main-six{
+  background-color:#3e3a37;
+  width:100%;
+  height:500px;
+  text-align:center;
+  color:white;
+  padding-top:100px;
+  margin-top:50px;
+}
+.contact-form{
+  display:inline-block;
+  color:white;
+  text-decoration: none;
+  font-size:20px;
+  border:0.5px solid white;
+  padding:30px 15px 30px 15px;
+}
+.contact-form:hover{
+  background-color:#1b1a19;
+  transition-duration: 0.5s;
+}

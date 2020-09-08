@@ -1,0 +1,26 @@
+.profile{
+  width:80%;
+  margin-left:300px;
+}
+h1{
+  text-align:center;
+}
+.profile-img{
+  float:right;
+  margin-right:300px;
+}
+.name{
+  font-size:30px;
+  font-weight:bold;
+  border-bottom:3px solid gray;
+  width:190px;
+}
+.profile-title{
+  font-size:30px;
+  font-weight:bold;
+  border-bottom:3px solid gray;
+  width:190px;
+}
+.text{
+  font-size:25px;
+}
